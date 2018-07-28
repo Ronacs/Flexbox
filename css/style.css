@@ -1,0 +1,59 @@
+:root {
+  --colorPrimary: #eb2f64;
+  --colorPrimaryLight: #FF3366;
+  --colorPrimaryDark: #BA265D;
+  --colorDark: #333 ;
+  --colorLight: #777;
+  --colorLighter: #999;
+  --LightPrimary: #faf9f9;
+  --LightSecondary: #f4f2f2;
+  --shadow-dark-blur: 0 2rem 6rem rgba(0, 0, 0, .3); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-image: linear-gradient(to right bottom, var(--colorPrimaryLight), var(--colorPrimaryDark));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--colorDark);
+  min-height: 100vh; }
+
+.header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--textColorSecondary); }
+
+.logo {
+  height: 3.5rem; }
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--LightPrimary);
+  box-shadow: var(--shadow-dark-blur);
+  min-height: 50rem; }
+
+.side-menu {
+  background-color: var(--colorDark);
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 18%; }
+
+.content {
+  display: flex; }
+
+.hotel-view {
+  background-color: var(--LightSecondary);
+  flex-grow: 1; }

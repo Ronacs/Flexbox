@@ -1,0 +1,9 @@
+// This handles section definition of the page
+.content{
+    display: flex;
+}
+
+.hotel-view{
+    background-color: var(--LightSecondary);
+    flex-grow: 1;
+}

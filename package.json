@@ -1,0 +1,19 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Flexbox demo",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
+  },
+  "author": "Rock",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "postcss-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
