@@ -18,12 +18,15 @@
 @import "components/_search";
 @import "components/_form";
 @import "components/_notification";
+@import "components/_images";
 
 // SASS LAYOUTS
 @import "layouts/_header";
 @import "layouts/_footer";
 @import "layouts/_layout";
 @import "layouts/_side-menu";
+@import "layouts/_overview";
+@import "layouts/_detail-view";
 
 // SASS PAGE
 @import "pages/_page-section";

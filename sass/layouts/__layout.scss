@@ -1,7 +1,8 @@
+// ROOT CONTAINER - no flex
 .container{
     max-width: 120rem;
     margin: 8rem auto;
     background-color: var(--LightPrimary);
     box-shadow: var(--shadow-dark-blur);
-    min-height: 50rem;
+    // min-height: 50rem;
 }

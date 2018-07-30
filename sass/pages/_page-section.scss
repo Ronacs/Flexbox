@@ -1,8 +1,10 @@
 // This handles section definition of the page
+//flex - sidebar and gallery and comment on the right side
 .content{
     display: flex;
 }
 
+//
 .hotel-view{
     background-color: var(--LightSecondary);
     flex-grow: 1;

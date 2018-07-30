@@ -1,0 +1,66 @@
+// the block after the images
+.overview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--colorWhite);
+    border-bottom: 1px solid var(--LightPrimary);
+    // justify-content: space-between;
+
+    &__stars{
+        // this will create a big gap pushing the content at the end
+        margin-right: auto;
+        display: flex;
+    }
+
+    &__heading{
+        font-weight: 300;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        padding: 1.5rem 3rem;
+    }
+
+    // LOCATION PART
+    &__location{
+        font-size: 1.2rem;
+        padding: 0 1em;
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon--location{
+        margin-right: .5rem;
+    }
+
+    &__icon--star,
+    &__icon--location{
+        height: 1.75rem;
+        width: 1.75rem;
+        fill: var(--colorPrimary); 
+    }
+
+    &__rating{
+        background-color: var(--colorPrimary);
+        text-align: center;
+        padding: .5rem 1.5rem;
+        align-self: stretch;
+
+    }
+
+    &__rating-average{
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.25rem;
+        display: block;
+    }
+
+    &__rating-count{
+        color: #fff;
+        margin-left: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+        display: block;
+    }
+
+}

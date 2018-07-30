@@ -12,8 +12,13 @@
 
     --LightPrimary: #faf9f9;
     --LightSecondary: #f4f2f2;
+    --LightThird: #f0eeee;
+
+    --colorWhite: #fff;
+    --colorGray: #ccc;
 
     --shadow-dark-blur: 0 2rem 6rem rgba(0, 0, 0, .3);
+    --line-bottom: 1px solid var(--LightPrimary); 
 }
 
 *{

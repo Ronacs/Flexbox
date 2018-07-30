@@ -1,0 +1,32 @@
+// BUTTON ANIM
+
+@keyframes pulsating{
+
+    0%{
+        box-shadow: none;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    50%{
+        box-shadow: 0 2rem 3rem rgba(0, 0, 0, .3);
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+    100%{
+        box-shadow: none;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+}

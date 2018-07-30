@@ -1,0 +1,32 @@
+// BUTTON
+.btn{
+    border: none;
+    padding: 1rem;
+    color: var(--colorPrimary);
+    background-color: transparent;
+    font-size: inherit;
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+    cursor: pointer;
+    transition:all .3s ease-out;
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    
+    &:hover{
+        color: var(--colorLight);
+    }
+
+    &:focus{
+        outline: none;
+        animation: pulsating 1s infinite;
+        -webkit-animation: pulsating 1s infinite;
+}
+
+    &--inline{
+        display: inline;
+    }
+
+}
+

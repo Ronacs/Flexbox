@@ -1,14 +1,20 @@
 .header{
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--textColorSecondary);
-    // display: flex;
+    // create an semi elevation or divider  effect
+    border-bottom: 1px solid var(--colorGray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
 }
 
 .logo{
     height: 3.5rem;
+    margin-left: 2rem;
 }
 
 .logo-box{
-    
+
 }
