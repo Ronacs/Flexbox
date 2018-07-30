@@ -14,15 +14,28 @@
     -ms-transition:all .3s ease-out;
     -o-transition:all .3s ease-out;
     
+    span{
+        margin-left: .1rem;
+        transition:margin-left .2s ease-out;
+        -webkit-transition:margin-left .2s ease-out;
+        -moz-transition:margin-left .2s ease-out;
+        -ms-transition:margin-left .2s ease-out;
+        -o-transition:margin-left .2s ease-out;
+    }
+    
     &:hover{
         color: var(--colorLight);
+
+        span{
+            margin-left: .8rem;
+        }
     }
 
     &:focus{
         outline: none;
         animation: pulsating 1s infinite;
         -webkit-animation: pulsating 1s infinite;
-}
+    }   
 
     &--inline{
         display: inline;

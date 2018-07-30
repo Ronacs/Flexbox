@@ -4,5 +4,8 @@
     margin: 8rem auto;
     background-color: var(--LightPrimary);
     box-shadow: var(--shadow-dark-blur);
-    // min-height: 50rem;
+
+    @include deviceScreenAdapter(desktop){
+        margin: 0;
+    }
 }

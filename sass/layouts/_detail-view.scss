@@ -7,8 +7,11 @@
     padding: 4.5rem;
     background-color: var(--LightPrimary);
     border-bottom: var(--line-bottom);
+    font-size: 1.4rem;
+
 }
 
+// LEFT SIDE OF THE DETAIL VIEW
 .description{
     flex-grow: 0;
     flex-shrink: 0;
@@ -21,14 +24,16 @@
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2);
 }
 
+// RIGHT COL OF THE DETAIL VIEW
 .user-reviews{
     flex-grow: 1;
-    font-size: 1.4rem;
+    font-size: inherit;
     color: var(--colorLighter);
-    background-color: #fff;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2);
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: #fff;
+    // box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2);
 }
 
 .paragraph{
@@ -90,9 +95,7 @@
         margin-right: auto;
     }
 
-    &__friends{
-
-    }
+    // &__friends{}
 
 
     &__photo{

@@ -1,0 +1,88 @@
+// CALL TO ACTION
+.cta{
+    background-color: #fff;
+    text-align: center;
+    padding: 2.5rem 0;
+
+    // HEADING
+    &__book-now{
+        font-size: 2rem;
+        font-weight: 300;
+        color: var(--colorLight);
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+    }
+
+    // BOOK BUTTON
+    &__book--btn{
+        cursor: pointer;
+        display: inline-block;
+        // padding: 2.6rem;
+        color: #fff;
+        position: relative;
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        border-radius: 10rem;
+        -webkit-border-radius: 10rem;
+        -moz-border-radius: 10rem;
+        -ms-border-radius: 10rem;
+        -o-border-radius: 10rem;
+        background-image: linear-gradient(to right, var(--colorPrimary), var(--colorPrimaryDark) );
+        overflow: hidden;
+
+        &:hover{
+            background-image: linear-gradient(to left, var(--colorPrimary), var(--colorPrimaryDark) );
+        }
+
+        &:focus{
+            outline: none;
+            animation: pulsating 1s infinite;
+            -webkit-animation: pulsating 1s infinite;
+        }
+        
+    }
+
+    &:hover &__book--visible{
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+    }
+
+    &:hover &__book--hidden{
+        top: 0;
+    }      
+
+    &__book--visible{
+        display: inline-block;
+        padding: 2rem 7rem;
+        height: 100%;
+        width: 100%;
+        transition: all .2s ease-out;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        
+    }
+
+    &__book--hidden{
+        position: absolute;
+        display: inline-block;
+        padding: 2rem 0;
+        top: -100%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transition: all .2s ease-out;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+    }
+
+}
