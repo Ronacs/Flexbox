@@ -3,9 +3,10 @@ Udemy course by: Jonas Schedmann
 # Flexbox
 * Flexbox is a new module in CSS3 that makes it easy to align
   elements to one another, in differen tdirections and orders;
-
 * Give the container the ability to expand and to shrink elements to 
 best use all the available space;
+
+![Desktop] (https://github.com/Ronacs/Flexbox/blob/master/127.0.0.1_5500_index.html.png)
 
 # CHEAT SHEET
 ### display:flex | flex-inline  (behaves like and inline element)
