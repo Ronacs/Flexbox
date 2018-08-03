@@ -6,6 +6,10 @@
     position: relative;
     overflow: hidden;
 
+    @include breakPoints ($bp-1){
+        margin-bottom: 3rem;
+    }
+
     &::before{
         content: "\201C";
         position: absolute;
@@ -42,6 +46,11 @@
         -moz-border-radius: 100%;
         -ms-border-radius: 100%;
         -o-border-radius: 100%;
+
+        @include breakPoints ($bp-3){
+            height: 4rem;
+            width: 4rem;
+        }
     }
 
     &__user-box{

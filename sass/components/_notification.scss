@@ -3,6 +3,10 @@
     // align-items: center;
     align-self: stretch;
 
+    @include breakPoints ($bp-4){
+        order: 2;
+    }
+
     //select all direct child
     & > * {
         padding: 0 2rem;

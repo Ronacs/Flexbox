@@ -1,13 +1,23 @@
 .header{
     height: 7rem;
+    width: 100%;
+    max-width: 100%;
     background-color: #fff;
     // create an semi elevation or divider  effect
     border-bottom: 1px solid var(--colorGray);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    // flex-wrap: wrap;
     align-items: center;
     font-size: 1.4rem;
+
+    @include breakPoints ($bp-5){
+        flex-wrap: wrap;
+        justify-items: center;
+        align-content: space-around;   
+        height: 11rem;
+    }
 }
 
 .logo{

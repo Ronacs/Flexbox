@@ -2,6 +2,11 @@
 //flex - sidebar and gallery and comment on the right side
 .content{
     display: flex;
+
+    @include breakPoints ($bp-1){
+        flex-direction: column;
+    }
+
 }
 
 //

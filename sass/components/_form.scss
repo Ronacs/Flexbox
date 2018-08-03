@@ -18,9 +18,18 @@
     //align the items in the main axis (X)
     justify-content: center;
 
+    @include breakPoints ($bp-5){
+        order: 3;
+        flex-basis: 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        background-color: var(--LightSecondary);
+    }
+
     &__input{
 
         width: 90%;
+        max-width: 100%;
         font-family: inherit;
         font-size: inherit;
         color: inherit;
